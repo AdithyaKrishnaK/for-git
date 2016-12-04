@@ -1,0 +1,179 @@
+* {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-helloweb.svg);
+}
+
+#prev-bt {
+  background-image: url(../icons/go-previous-paired.svg);
+}
+
+#next-bt {
+  background-image: url(../icons/go-next-paired.svg);
+}
+
+#help {
+  height: 96%;
+}
+
+#canvas {
+  text-align: center;
+  background-color: white;
+}
+
+#points div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.current {
+  background-color: #eebb00;
+}
+
+.current-no {
+  background-color: #d5d5d5;
+}
+
+#fullscreen {
+  background-image: url(../icons/view-fullscreen.svg);
+}
+
+#unfullscreen {
+  background-image: url(../icons/view-return.svg);
+  border: 0;
+  border-radius: 0px;
+  margin: 1px;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 95%;
+  position: absolute;
+}
+
+/* Slightly modified freely licensed pop-up models from: http://www.sevensignature.com/blog/code/pure-css-popup-without-javascript/ - code below */
+.box {
+  width: 60%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button_red {
+  font-size: 1.5em;
+  padding: 10px;
+  color: #fff;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button_orange {
+  font-size: 1.5em;
+  padding: 10px;
+  color: #fff;
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button_grey {
+  font-size: 1.5em;
+  padding: 10px;
+  color: #fff;
+  background-color: grey;
+  border: 2px solid grey;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button_blue {
+  font-size: 1.5em;
+  padding: 10px;
+  color: #fff;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button_green {
+  font-size: 1.5em;
+  padding: 10px;
+  color: #fff;
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  font-size: 1.5em;
+}

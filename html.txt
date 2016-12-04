@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello World</title>
+    <link rel="stylesheet" href="a.css">
+    <script data-main="js/loader" src="require.js"></script>
+  </head>
+  
+  <body>
+    <div id="main-toolbar" class="toolbar">
+      <button class="toolbutton" id="activity-button" title="Hello World"></button>
+      <hr />
+      <button class="toolbutton pull-right" id="stop-button" title="Stop"></button>
+    </div>
+       
+    <div id="canvas">
+       <h1>Hello World</h1>
+       
+        <div class="box">
+        <a class="button_orange" href="#info1">When the Sugar Labs organization was formed?</a>
+        </div>
+        
+        <div class="box">
+        <a class="button_blue" href="#info2">What is the standard Sugar license?</a>
+        </div>
+        
+        <div class="box">
+        <a class="button_grey" href="#info3">What type of organization is the Sugar Labs?</a>
+        </div>
+        
+        <div class="box">
+        <a class="button_green" href="#info4">What is the website of the Sugar Labs?</a>
+        </div>
+        
+        <div class="box">
+        <a class="button_red" href="#info5">What is an activity?</a>
+        </div>
+        
+        <div id="info1" class="overlay">
+            <div class="popup">
+                <h2>Q&A #1</h2>
+                <a class="close" href="#">×</a>
+                <div class="content">
+                    The Sugar Labs was formed on May 15th, 2008 in Boston, MA, United States of America.
+                </div>
+            </div>
+        </div>
+        <div id="info2" class="overlay">
+            <div class="popup">
+                <h2>Q&A #2</h2>
+                <a class="close" href="#">×</a>
+                <div class="content">
+                    Materials created by the Sugar Labs contributors are usually shared on GNU GPL free software license.
+                </div>
+            </div>
+        </div>
+        <div id="info3" class="overlay">
+            <div class="popup">
+                <h2>Q&A #3</h2>
+                <a class="close" href="#">×</a>
+                <div class="content">
+                    The Sugar Labs is a non-governmental (NGO) and non-profit organization with wide educational goals.
+                </div>
+            </div>
+        </div>
+        <div id="info4" class="overlay">
+            <div class="popup">
+                <h2>Q&A #4</h2>
+                <a class="close" href="#">×</a>
+                <div class="content">
+                    The Sugar Labs main website is http://sugarlabs.org/ 
+                </div>
+            </div>
+        </div>
+        <div id="info5" class="overlay">
+            <div class="popup">
+                <h2>Q&A #5</h2>
+                <a class="close" href="#">×</a>
+                <div class="content">
+                    Activity is a small educational application (like this one) built into Sugar. Anyone can create an activity, also you!...
+                </div>
+            </div>
+        </div>
+        </div>
+  </body>
+</html>
